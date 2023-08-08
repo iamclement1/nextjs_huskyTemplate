@@ -36,7 +36,7 @@
     "lint-staged": "^13.2.3"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx, md}": [
+    "src/**/*.{js,jsx,ts,tsx,md}": [
       "eslint --max-warnings=0",
       "prettier --write"
     ],
